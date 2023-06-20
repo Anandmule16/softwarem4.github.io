@@ -1,0 +1,553 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bg-img {
+        background-image: url(./images/pexels-picjumbocom-1966591.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom left;
+    }
+
+    .navbar {
+        /* background-color: gray; */
+        height: 4rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: black;
+        position: absolute;
+        top: 0;
+    }
+
+    .content {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 600px;
+
+    }
+
+    .developer {
+        font-size: 20px;
+    }
+
+    .app {
+        width: 500px;
+        font-size: 80px;
+        border: 0px;
+        padding: 0px 0px 10px 0px;
+    }
+
+    .services {
+        color: black;
+        border: 1px;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin-right: 10px;
+
+    }
+
+    .learn {
+        color: white;
+        border: 1px solid white;
+        padding: 10px 20px;
+        text-decoration: none;
+
+    }
+
+    .lorem {
+        border: 0px;
+        padding: 0px 0px 40px 0px;
+    }
+
+    .c2 {
+        width: 600px;
+    }
+
+    .c3 {
+        width: 85%;
+        height: 350px;
+
+    }
+
+    .img3 {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .c4 {
+        width: 600px;
+    }
+
+    .goal {
+        width: 100%;
+    }
+
+    .c5 {
+        width: 100%;
+        height: 600px;
+    }
+
+    .career {
+        width: 75%;
+        height: 400px;
+    }
+
+    .c6 {
+        width: 700px;
+    }
+
+    .john {
+        border-radius: 100%;
+    }
+
+    .c7 {
+        width: 1000px;
+    }
+
+    .c8 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .c9 {
+        width: 100%;
+        height: 700px;
+    }
+
+    .c10 {
+        width: 1200px;
+    }
+
+    .work {
+        width: 1010px;
+        height: 200px;
+    }
+</style>
+
+
+<body class="bg-slate-400">
+
+    <div class="bg-img"></div>
+    <div class="navbar  bg-slate-400">
+        <div>
+            <h1 class="text-3xl font-serif ms-5 d-flex">
+                <img class="mx-2" height="25px" width="35px" src="./images/logo-removebg-preview (1).png" alt="">
+                SoftwareM4
+            </h1>
+        </div>
+        <div>
+            <a class="mx-2 hover:text-white transition duration-300" href="">Home</a>
+            <a class="mx-2 hover:text-white transition duration-300" href="">About</a>
+            <a class="mx-2 hover:text-white transition duration-300" href="">Services</a>
+            <a class="mx-2 hover:text-white transition duration-300" href="">Contact</a>
+        </div>
+        <div class="justify-evenly me-5 text-2xl">
+            <button class="bg-slate-300 hover:bg-white transition duration-300 p-1 rounded">
+                <i class="bi bi-instagram mx-1"></i>
+            </button>
+            <button class="bg-slate-300 hover:bg-white transition duration-300 p-1 rounded">
+                <i class="bi bi-facebook mx-1"></i>
+            </button>
+            <button class="bg-slate-300 hover:bg-white transition duration-300 p-1 rounded">
+                <i class="bi bi-twitter mx-1"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1 class="developer text-slate-300">Developer Company</h1>
+        <h1 class="app text-slate-300 font-serif">Software App</h1>
+        <p class="lorem text-slate-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, laudantium.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. laudantium.
+        </p>
+
+        <a class="services bg-slate-300 hover:bg-white transition duration-300 rounded-sm hover:text-black" href="">Our
+            Services</a>
+        <a class="learn hover:bg-slate-300 transition duration-300 rounded-sm hover:text-black" href="">Learn More</a>
+    </div>
+
+    <div class="mx-28 my-20 flex">
+        <img class="rounded-lg" height="350px" width="500px" src="./images/bg.jpg" alt="">
+        <div class="block mx-20">
+            <p class="my-3 text-2xl">Core Features</p>
+            <h1 class="text-6xl font-bold c2">Best Business Software Solution</h1>
+            <div class="flex">
+                <div class="card my-10 ml-0 mr-10 bg-slate-300">
+                    <div class="card-body d-block px-5">
+                        <i class="bi bi-palette text-slate-700 fs-1"></i>
+                        <p class="text-center">Design</p>
+                    </div>
+                </div>
+                <div class="card my-10 ml-0 mr-10 bg-slate-300">
+                    <div class="card-body d-block px-5">
+                        <i class="bi bi-hand-index text-slate-700 fs-1"></i>
+                        <p class="text-center">Usage</p>
+                    </div>
+                </div>
+                <div class="card my-10 ml-0 mr-10 bg-slate-300">
+                    <div class="card-body d-block px-5">
+                        <i class="bi bi-people text-slate-700 fs-1"></i>
+                        <p class="text-center">Testing</p>
+                    </div>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus maxime facilis a ipsa quo corrupti
+                odio voluptate, deserunt aliquam, voluptates ab eum quis. Nisi, ea! Deleniti quasi accusantium
+                dignissimos rem.</p>
+            <button type="button"
+                class="bg-slate-300 rounded-sm w-28 mt-5 h-10 text-black hover:bg-white transition duration-300">
+                Read More
+            </button>
+        </div>
+    </div>
+
+    <div class=" card c3 mx-auto d-flex bg-slate-300">
+        <div class="c4">
+            <p class="ml-20 mt-10">App Download</p>
+            <h1 class="ml-20 text-6xl font-bold">You can control direct from your mobile.</h1>
+        </div>
+        <img class="img3 me-20" width="330px" src="./images/pexels-anna-nekrashevich-6802049.jpg" alt="">
+    </div>
+
+    <div class="goal block bg-slate-300 my-20">
+        <div class="px-28 py-12">
+            <h1 class="py-3 text-2xl font-bold">Our Goal</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus assumenda nam dolorum in,
+                distinctio
+                sapiente, libero corporis fugit quos aliquam pariatur tempore! Quo tempore odit rerum voluptatibus
+                libero.
+                Quisquam veritatis at omnis sint facilis recusandae. Eos dolorem quibusdam maiores, culpa ipsa
+                distinctio
+                illum corrupti tenetur architecto expedita exercitationem repudiandae molestiae?</p>
+        </div>
+        <div class="row mx-28 my-5">
+            <div class="col-sm-4">
+                <i class="bi bi-check2 rounded-3xl bg-slate-400 px-2 py-1"></i>
+                App Design & Research
+            </div>
+            <div class="col-sm-4">
+                <i class="bi bi-check2 rounded-3xl bg-slate-400 px-2 py-1"></i>
+                Developement & Testing
+            </div>
+            <div class="col-sm-4">
+                <i class="bi bi-check2 rounded-3xl bg-slate-400 px-2 py-1"></i>
+                App Design & Research
+            </div>
+        </div>
+        <div class="row mx-28 pb-10">
+            <div class="col-sm-4">
+                <i class="bi bi-check2 rounded-3xl bg-slate-400 px-2 py-1"></i>
+                Developement & Testing
+            </div>
+            <div class="col-sm-4">
+                <i class="bi bi-check2 rounded-3xl bg-slate-400 px-2 py-1"></i>
+                App Design & Research
+            </div>
+            <div class="col-sm-4">
+                <i class="bi bi-check2 rounded-3xl bg-slate-400 px-2 py-1"></i>
+                Developement & Testing
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <h1 class="text-center text-6xl font-semibold">Core Features</h1>
+        <div class="my-20  flex">
+            <div class="card bg-slate-300 rounded-xl mx-auto h-96 w-96">
+                <div class="cardbody">
+                    <button type="button" class="bottom-40 text-3xl end-5 absolute rounded bg-slate-400">
+                        <i class="bi bi-arrow-right px-2 p-2"></i>
+                    </button>
+                    <img class="w-96 h-52  rounded-t-xl" src="./images/pexels-pixabay-209151.jpg" alt="">
+                    <p class="pt-10 ps-10">Software,Interface</p>
+                    <h1 class="ps-10 font-serif text-4xl">Developement</h1>
+                </div>
+            </div>
+            <div class="card bg-slate-300 rounded-xl mx-auto h-96 w-96">
+                <div class="cardbody">
+                    <button type="button" class="bottom-40 text-3xl end-5 absolute rounded bg-slate-400">
+                        <i class="bi bi-arrow-right p-2"></i>
+                    </button>
+                    <img class="w-96 h-52  rounded-t-xl" src="./images/pexels-lukas-574073.jpg" alt="">
+                    <p class="pt-10 ps-10">Software,Design</p>
+                    <h1 class="ps-10 font-serif text-4xl">Design</h1>
+                </div>
+            </div>
+            <div class="card bg-slate-300 rounded-xl mx-auto h-96 w-96">
+                <div class="cardbody">
+                    <button type="button" class="bottom-40 text-3xl end-5 absolute rounded bg-slate-400">
+                        <i class="bi bi-arrow-right p-2"></i>
+                    </button>
+                    <img class="w-96 h-52  rounded-t-xl" src="./images/pexels-roberto-nickson-3082341.jpg" alt="">
+                    <p class="pt-10 ps-10">Software,Interface</p>
+                    <h1 class="ps-10 font-serif text-4xl">Optimisation</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-black c5 my-30 flex justify-center items-center">
+        <div class="card career rounded-xl d-flex bg-slate-400">
+            <div class="card-body flex ">
+                <div class="pt-20 ps-20 c6">
+                    <p class=" text-xl">Careers</p>
+                    <h1 class=" font-bold text-6xl">Join Our Team To Create Best Digital Solutions</h1>
+                </div>
+                <div class="pt-14 text-2xl ">
+                    <button type="button"
+                        class="my-3 ms-0 flex border-2 border-black rounded w-80 justify-between hover:border-slate-300 duration-300 hover:text-slate-300">
+                        <div class="flex">
+                            <i class=" p-3 bi bi-gear"></i>
+                            <h1 class=" p-3 ">Developement</h1>
+                        </div>
+                        <i class=" p-3 bi bi-arrow-right"></i>
+                    </button>
+                    <button type="button"
+                        class="my-3 ms-0 flex border-2 border-black rounded w-80 justify-between hover:border-slate-300 duration-300 hover:text-slate-300">
+                        <div class="flex">
+                            <i class="p-3 bi bi-palette"></i>
+                            <h1 class="p-3">Design</h1>
+                        </div>
+                        <i class="p-3 bi bi-arrow-right"></i>
+                    </button>
+                    <button type="button"
+                        class="my-3 ms-0 flex border-2 border-black rounded w-80 justify-between hover:border-slate-300 duration-300 hover:text-slate-300">
+                        <div class="flex">
+                            <i class="p-3 bi bi-box"></i>
+                            <h1 class="p-3">Optimisation</h1>
+                        </div>
+                        <i class="p-3 bi bi-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block text-center mt-28 mb-20">
+        <p class="text-xl">Experts</p>
+        <h1 class="text-6xl font-bold">Our Team Members</h1>
+        <div class="flex mt-28 mx-auto">
+            <div class="card w-80 h-96 mx-auto bg-slate-300">
+                <div class="card-body m-auto">
+                    <img height="200px" width="200px" class="john" src="./images/pexels-creation-hill-1681010.jpg"
+                        alt="">
+                    <h1 class="text-3xl font-serif pt-5">John Smith</h1>
+                    <p class="text-slate-400">Programmer</p>
+                    <div class="bottom-0 icons flex justify-center gap-2 mt-3">
+                        <button type="button"
+                            class="h-10 w-10 rounded bg-slate-400 hover:bg-white hover:text-slate-300 transition duration-300 ">
+                            <i class="bi bi-facebook"></i>
+                        </button>
+                        <button type="button"
+                            class="h-10 w-10 rounded bg-slate-400 hover:bg-white hover:text-slate-300 transition duration-300 ">
+                            <i class="bi bi-twitter"></i>
+                        </button>
+                        <button type="button"
+                            class="h-10 w-10 rounded bg-slate-400 hover:bg-white hover:text-slate-300 transition duration-300 ">
+                            <i class="bi bi-instagram"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-80 h-96 mx-auto bg-slate-300">
+                <div class="card-body m-auto">
+                    <img height="200px" width="200px" class="john" src="./images/pexels-daniel-xavier-1239288.jpg"
+                        alt="">
+                    <h1 class="text-3xl font-serif pt-5">Sarah Palmer</h1>
+                    <p class="text-slate-400">Manager</p>
+                    <div class="bottom-0 icons flex justify-center gap-2 mt-3">
+                        <button type="button"
+                            class="h-10 w-10 rounded bg-slate-400 hover:bg-white hover:text-slate-300 transition duration-300">
+                            <i class="bi bi-facebook"></i>
+                        </button>
+                        <button type="button"
+                            class="h-10 w-10 rounded bg-slate-400 hover:bg-white hover:text-slate-300 transition duration-300">
+                            <i class="bi bi-twitter"></i>
+                        </button>
+                        <button type="button"
+                            class="h-10 w-10 rounded bg-slate-400 hover:bg-white hover:text-slate-300 transition duration-300">
+                            <i class="bi bi-instagram"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-80 h-96 mx-auto bg-slate-300">
+                <div class="card-body m-auto">
+                    <img height="200px" width="200px" class="john" src="./images/pexels-spencer-selover-775358.jpg"
+                        alt="">
+                    <h1 class="text-3xl font-serif pt-5">Adam Swift</h1>
+                    <p class="text-slate-400">Analyst</p>
+                    <div class="bottom-0 icons flex justify-center gap-2 mt-3">
+                        <button type="button"
+                            class="h-10 w-10 rounded bg-slate-400 hover:bg-white hover:text-slate-300 transition duration-300 ">
+                            <i class="bi bi-facebook"></i>
+                        </button>
+                        <button type="button"
+                            class="h-10 w-10 rounded bg-slate-400 hover:bg-white hover:text-slate-300 transition duration-300 ">
+                            <i class="bi bi-twitter"></i>
+                        </button>
+                        <button type="button"
+                            class="h-10 w-10 rounded bg-slate-400 hover:bg-white hover:text-slate-300 transition duration-300 ">
+                            <i class="bi bi-instagram"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card w-80 h-96 mx-auto bg-slate-300">
+                <div class="card-body m-auto">
+                    <img height="200px" width="200px" class="john" src="./images/pexels-andrea-piacquadio-774909.jpg"
+                        alt="">
+                    <h1 class="text-3xl font-serif pt-5">Helen Smith</h1>
+                    <p class="text-slate-400">Designer</p>
+                    <div class="bottom-0 icons flex justify-center gap-2 mt-3">
+                        <button type="button"
+                            class="h-10 w-10 rounded bg-slate-400 hover:bg-white hover:text-slate-300 transition duration-300 ">
+                            <i class="bi bi-facebook"></i>
+                        </button>
+                        <button type="button"
+                            class="h-10 w-10 rounded bg-slate-400 hover:bg-white hover:text-slate-300 transition duration-300 ">
+                            <i class="bi bi-twitter"></i>
+                        </button>
+                        <button type="button"
+                            class="h-10 w-10 rounded bg-slate-400 hover:bg-white hover:text-slate-300 transition duration-300 ">
+                            <i class="bi bi-instagram"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="img4 mt-28 relative mb-36 flex justify-center">
+        <img class=" rounded-2xl" width="1200px" src="./images/pexels-fauxels-3183150.jpg" alt="">
+        <div class="card bg-slate-300 c7 absolute -bottom-10 flex  h-20">
+            <div class="card-body c8 rounded-xl">
+                <div>
+                    <p>Clients</p>
+                    <h1 class="text-xl font-bold">Art Museum</h1>
+                </div>
+                <div>
+                    <p>Services</p>
+                    <h1 class="text-xl font-bold">Website</h1>
+                </div>
+                <div>
+                    <p>Duration</p>
+                    <h1 class="text-xl font-bold">10-30 Days</h1>
+                </div>
+                <div>
+                    <p>Tools</p>
+                    <h1 class="text-xl font-bold">Figma</h1>
+                </div>
+                <button type="button" class="bg-black text-white w-32 rounded">Preview</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-black c9 mb-28 ">
+        <p class="text-slate-300 ps-20 pt-20">Testimonials</p>
+        <h1 class="text-slate-400 text-6xl font-bold ps-20 pb-5">Our Client Feedback</h1>
+        <div class="cards flex justify-between px-20">
+            <div class="card rounded-lg bg-slate-300 h-96 w-96">
+                <div class="card-body  p-5 text-2xl">
+                    <h1 class="text-black ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet autem ea aperiam at, cumque
+                        mollitia.
+                    </h1>
+                    <i class="bi bi-chat-square-quote text-6xl absolute right-10 pt-2"></i>
+                    <div class="flex mt-20 gap-3">
+                        <img class=" rounded-full" width="80px" src="./images/pexels-creation-hill-1681010.jpg" alt="">
+                        <div class="block">
+                            <h1 class="font-bold text-xl">John Smith</h1>
+                            <p class="text-sm text-slate-600">Programmer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card rounded-lg bg-slate-300 h-96 w-96">
+                <div class="card-body  p-5 text-2xl">
+                    <h1 class="text-black ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste optio quo beatae totam.
+                        Doloremque,
+                        in!
+                    </h1>
+                    <i class="bi bi-chat-square-quote text-6xl absolute right-5 pt-2"></i>
+                    <div class="flex mt-20 gap-3">
+                        <img class=" rounded-full" width="80px" src="./images/pexels-daniel-xavier-1239288.jpg" alt="">
+                        <div class="block">
+                            <h1 class="font-bold text-xl">Sarah Palmer</h1>
+                            <p class="text-sm text-slate-600">manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card rounded-lg bg-slate-300 h-96 w-96">
+                <div class="card-body  p-5 text-2xl">
+                    <h1 class="text-black ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste optio quo beatae totam.
+                        Doloremque,
+                        in!
+                    </h1>
+                    <i class="bi bi-chat-square-quote text-6xl absolute right-5 pt-2"></i>
+                    <div class="flex mt-20 gap-3">
+                        <img class=" rounded-full" width="80px" src="./images/pexels-spencer-selover-775358.jpg" alt="">
+                        <div class="block">
+                            <h1 class="font-bold text-xl">Adam Swift</h1>
+                            <p class="text-sm text-slate-600">Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="view text-center ">
+        <h1 class="text-5xl font-semibold">View In Action</h1>
+        <video class="mt-16 mx-auto rounded-xl " width="1200px" controls
+            src="./videos/pexels-cottonbro-studio-3202042-1920x1080-25fps.mp4"></video>
+    </div>
+
+    <div class="card mt-28 bg-slate-300 rounded-lg c10 mx-auto mb-32">
+        <div class="card-body">
+            <p class="ms-20 mt-20 ">Estimate For Projects</p>
+            <h1 class="ms-20 font-semibold text-6xl">Share Work Details</h1>
+            <div class="details flex ms-20 mt-16 justify-between me-20">
+                <h1 class="rounded bg-white text-slate-400 w-72 h-10 items-center flex text-lg ps-3"> Full Name</h1>
+                <h1 class="rounded bg-white text-slate-400 w-72 h-10 items-center flex text-lg ps-3">Email Address</h1>
+                <h1 class="rounded bg-white text-slate-400 w-72 h-10 items-center flex text-lg ps-3">Subject</h1>
+            </div>
+            <div class="work rounded mt-5 bg-white text-slate-400 ms-20 p-3 text-lg">
+                Work Details
+            </div>
+            <div class=" flex justify-end me-20 mt-3 mb-10">
+                <h1 class="bg-black text-white rounded p-1 text-xl">Subscribe Now</h1>
+            </div>
+        </div>
+    </div>
+
+    <img class="mt-28 w-screen " src="./images/Screenshot 2023-06-18 184355.png" alt="">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
